@@ -1,0 +1,21 @@
+{
+  "name": "guilded-stats",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/ws": "^8.5.10",
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start:dev": "bun run src/index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "undici": "^6.13.0",
+    "ws": "^8.16.0"
+  }
+}
